@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+	<group xml:base="file:///d:/projects/docbooktransformer/stylesheets/">
+
+		<!-- Resolve stylesheet URL to local file -->
+		<rewriteURI
+			uriStartString="http://docbook.sourceforge.net/release/xsl/current/"
+			rewritePrefix="docbook-xsl-1.79.2/" />
+		<rewriteURI
+			uriStartString="custom://stylesheets/"
+			rewritePrefix="custom/" />
+	</group>
+</catalog>

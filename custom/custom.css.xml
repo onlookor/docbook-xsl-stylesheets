@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<style>
+	@import url("docbook.css");
+	section > p {
+	text-indent:2em;
+	}
+	li>p:not(:first-child) {
+	text-indent:2em;
+	}
+	dd>p,li>p {
+	margin-top:0.2em;
+	margin-bottom:0.2em;
+	}
+	li>.itemizedlist {
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+</style>
